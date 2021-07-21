@@ -32,6 +32,7 @@
         <main>
             <h1>Cadastre-se no meu Newsletter :D</h1>
             <h4>Assim você vai estar sempre por dentro das nossas novidades ;)</h4>
+            <p> Se quiser dar um feedback, é só mandar uma mensagem junto</p>
             <form class="form">
                 <label for="nome"> Nome: </label>
                 <input id="nome" type="text" placeholder="Seu Nome Aqui">
@@ -42,11 +43,16 @@
                 <label for="telefone">Telefone:</label>
                 <input id="telefone" type="tel" placeholder="(xx)xxxxx-xxxx">
 
-                <button id="button" href="newsletter.html"> Enviar </button>
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" cols="30" rows="5" placeholder="Escreva seu feedback aqui."></textarea>
+                <div id="txtFdbk"> </div>
+
+                <button id="button"> Enviar </button>
 
             </form>
+            
         </main>
     </div>
 </body>
-
+<script src="./Assets/js/script.js"></script>
 </html>
