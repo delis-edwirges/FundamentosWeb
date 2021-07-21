@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsletter - I:DE</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="icon" href="./img/branding/ide_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body style="background: lightpink; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-    <strong>
-        <div style="background-color:hotpink; padding:20px;" class="p"></div><p style="text-align: center; font-family: monospace; font-size: x-large; color: #F92A62">|<a
-                style="text-decoration: none; color: darkmagenta; color: #F92A62" href="index.html"> Home</a>
-            <span>|</span> <a style="text-decoration: none; color: #F92A62;" href="gatinhos.html">GetCatos
-            </a><span>|</span> <a style="text-decoration: none; color: #F92A62;" href="doguinhos.html">GetDoggos</a>
-            <span>|</span> <a style="text-decoration: none; color: #F92A62;" href="newsletter.html">Newsletter</a>|
-        </p></div>
-    </strong>
-     
-    <h1>Cadastre-se no meu Newsletter :D</h1>
-    <h4>Assim você vai estar sempre por dentro das nossas novidades ;)</h4>
-    <form>
-        <label for="nome"> Nome: </label> 
-        <input id="nome" type="text"
-        placeholder="Seu Nome Aqui">  
-   
-        <label for="email">Email: </label>
-        <input id="email" type="email"
-        placeholder="seuemail@dominio.com">
-        
-         <label for="telefone">Telefone:</label>
-         <input id="telefone" type="tel"
-         placeholder="(xx)xxxxx-xxxx">  
-        
-        <button id="botaoEnviar"> Enviar </button>
-        
-         </form>
+
+<body>
+    <header>
+        <nav class="container menu">
+            <strong>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="gatinhos.html">GetCatos</a></li>
+                    <li><a href="doguinhos.html">GetDoggos</a></li>
+                    <li><a href="newsletter.html">Newsletter</a></li>
+                </ul>
+            </strong>
+        </nav>
+    </header>
+    <div class="backmain">
+        <main>
+            <h1>Cadastre-se no meu Newsletter :D</h1>
+            <h4>Assim você vai estar sempre por dentro das nossas novidades ;)</h4>
+            <form class="form">
+                <label for="nome"> Nome: </label>
+                <input id="nome" type="text" placeholder="Seu Nome Aqui">
+
+                <label for="email">Email: </label>
+                <input id="email" type="email" placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="tel" placeholder="(xx)xxxxx-xxxx">
+
+                <button id="button" href="newsletter.html"> Enviar </button>
+
+            </form>
+        </main>
+    </div>
 </body>
+
 </html>
